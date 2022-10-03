@@ -3,7 +3,7 @@ function navBar(e) {
   $div.innerHTML = `
   <div class="contenedor">
   <nav class="nav">
-  <a class="header__logo__link" href="index.html"><span class="nav__logo">GUIDO</span></a>
+  <a class="header__logo__link" href="../index.html"><span class="nav__logo">GUIDO</span></a>
   
   <i class="fa-solid fa-bars btn"></i>
   <ul class="nav___links">
