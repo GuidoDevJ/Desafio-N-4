@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #151515;
+    color: #fff;
+}
+
+.contenedor{
+    background-image: url("/assets/image\ 4.png");
+
+}
+.nav{
+    background-color: #222425;
+}
+h2 span {
+    width: 11ch;
+    font-size: 48px;
+    animation: typing 2s steps(12), blink .5s infinite 2s step-end alternate;
+
+}
+.works{
+    width: 100%;
+    height: auto;
+    background-image: url("/assets/antecedentes-red-tecnologia_34629-304.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.works h2{
+    margin-top: 45px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.works h2, .works article{
+    margin-bottom: 25px;
+}
+.works h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.works p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.works img{
+    width: 100%;
+    height: 129px;
+}
+.works i{
+    font-size: 36px;
+    margin-top: 14px;
+    color: #fff;
+}
+
+.works article{
+    width: 271px;
+    height: 310px;
+    text-align: center;
+}
+@media (min-width:960px){
+    .nav{
+        background-color: transparent;
+    }
+    .articles{
+        padding: 20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-content: center;
+        justify-items: center;
+    }
+}

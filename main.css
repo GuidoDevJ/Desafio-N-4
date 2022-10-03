@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.aboutMe{
+    width: 100%;
+    height: auto;
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe__img{
+    display: none;
+}
+.aboutMe__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe__text{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe__description{
+    width: 70%;
+    max-width: 700px;
+    height: 50vh;
+    margin: auto 0;
+    margin-bottom: 40px;
+}
+
+.works{
+    width: 100%;
+    height: auto;
+    background-color: #222425;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.works h2{
+    margin-top: 45px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.works h2, .works article{
+    margin-bottom: 25px;
+}
+.works h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.works p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.works img{
+    width: 100%;
+    height: 129px;
+}
+
+.works article{
+    width: 271px;
+    height: 310px;
+    text-align: center;
+}
+
+@media (min-width:960px){
+    .aboutMe__img{
+        display: block;
+    }
+    .aboutMe{
+        background-color: #FFFFFF;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: #2C2C2C;
+    }
+    .aboutMe__img{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .aboutMe__img .img{
+        width: 380px;
+        height: 480px;
+        background-color: red;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .articles{
+        padding: 20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-content: center;
+        justify-items: center;
+    }
+ 
+}

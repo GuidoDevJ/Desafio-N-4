@@ -1,0 +1,144 @@
+.contenedor{
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.header__logo__link{
+    text-decoration: none;
+}
+.header__text{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header__text h1{
+    color: #fff;;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header__text h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav___links{
+    display: none;
+}
+.nav i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #fff;
+}
+.nav__logo{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+.nav__links{
+    display: none;
+}
+.btn--x{
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.screen__links ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.screen__links ul li{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+}
+.screen__links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.screen__links{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:  #161616;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:960px){
+    .screen__links{
+        display: none;
+    }
+}
+@media (min-width:960px){
+    .nav{
+        background-color: none;
+    }
+    .header{
+        display: block;
+    }
+    .screen__links{
+        display: none;
+    }
+    .nav i{
+        display: none;
+    }
+    .nav___links{
+        display: block;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
+    .nav___links li{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .nav___links li:hover{
+        color: rgba(255, 255, 255, 1) ;
+        box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+        transition: all 0.2s ease;
+    }
+
+    .nav___links li a{
+        text-decoration: none;
+        color: #ddd;
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;;
+    }
+   
+
+}
