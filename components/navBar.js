@@ -7,17 +7,17 @@ function navBar(e) {
   
   <i class="fa-solid fa-bars btn"></i>
   <ul class="nav___links">
-  <li><a href="../pages/portfolio.html">Portfolio</a></li>
-  <li><a href="../pages/servicios.html">Servicios</a></li>
-  <li><a href="../pages/contact.html">Contact</a></li>
+  <li><a href="pages/portfolio.html">Portfolio</a></li>
+  <li><a href="pages/servicios.html">Servicios</a></li>
+  <li><a href="pages/contact.html">Contact</a></li>
   </ul>
   </nav>
   <div class="screen__links">
   <i class="fa-solid fa-x btn--x"></i>
   <ul>
-  <li><a href="../pages/portfolio.html">Portfolio</a></li>
-  <li><a href="../pages/servicios.html">Servicios</a></li>
-  <li><a href="../pages/contact.html">Contact</a></li>
+  <li><a href="pages/portfolio.html">Portfolio</a></li>
+  <li><a href="pages/servicios.html">Servicios</a></li>
+  <li><a href="pages/contact.html">Contact</a></li>
   </ul>
   </div>
   <header class="header">
